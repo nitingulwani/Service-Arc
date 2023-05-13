@@ -1,148 +1,172 @@
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70px; /* Update height to 70px */
-  background-color: #eee;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-h1 {
-  font-size: 36px;
-}
-
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  background-color: #ccc;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  position: fixed;
-  top: 70px; /* Update top position to match header height */
-  left: 0;
-}
-
-h2 {
-  margin: 0;
-  font-size: 24px;
-  text-align: center;
-}
-
-button {
-  margin: 0 5px;
-  padding: 10px 20px;
-  font-size: 18px;
-  background-color: #fff;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-#main-container {
-  display: flex;
-  height: calc(100% - 130px);
-  margin-top: 130px;
-}
-
-#sidebar {
-  width: 200px;
-  height: 480px;
-  background-color: #ddd;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-#video-container {
-  position: absolute;
-  top: 100px;
-  left: 100px;
-}
-
-.video-pane1 {
-  position: absolute;
-  top: 100px;
-  left: 350px;
-  width: 300px;
-  height: 200px;
-  background-color: red;
-}
-
-.video-pane2 {
-  position: absolute;
-  position: absolute;
-  top: 100px;
-  left: 800px;
-  width: 300px;
-  height: 200px;
-  background-color: green;
-}
-
-.video-pane3 {
-  position: absolute;
-  top: 350px;
-  left: 350px;
-  width: 300px;
-  height: 200px;
-  background-color: blue;
-}
-
-.video-pane4 {
-  position: absolute;
-  top: 350px;
-  left: 800px;
-  width: 300px;
-  height: 200px;
-  background-color: yellow;
-}
-input[type="text"],
-  button {
-  margin: 5px 0;
-  padding: 10px;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  box-shadow: 0px 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px; /* Update height to 70px */
+    background-color: #eee;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
-  .traffic-light-panel {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-left: 20px;
-}
-
-.traffic-light {
-width: 40px;
-height: 80px;
-border: 1px solid black;
-border-radius: 5px;
-background-color: #ddd;
-margin-bottom: 10px;
-}
-
-.traffic-light .circle {
-width: 20px;
-height: 20px;
-border-radius: 50%;
-margin: 5px;
-}
-
-.traffic-light .circle.red {
-background-color: red;
-}
-
-.traffic-light .circle.yellow {
-background-color: yellow;
-}
-
-.traffic-light .circle.green {
-background-color: green;
-}
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: fixed;
+    top: 70px; /* Update top position to match header height */
+    left: 0;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  #main-container {
+    display: flex;
+    height: calc(100% - 130px);
+    margin-top: 130px;
+  }
+  
+  #sidebar {
+    width: 200px;
+    height: 480px;
+    background-color: #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  #video-container {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+  
+  .video-pane1 {
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+  }
+  
+  .video-pane2 {
+    position: absolute;
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    width: 300px;
+    height: 200px;
+    background-color: green;
+  }
+  
+  .video-pane3 {
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+  }
+  
+  .video-pane4 {
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+  }
+  input[type="text"],
+    button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 
+    }
+    .traffic-light-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 276px;
+      margin-top: 140px;
+    }
+    .traffic-light-panel2 {
+      position: absolute;
+      margin-top: 170px ;
+      right: 0;
+      transform: translateY(-50%);
+    }
+    .traffic-light-panel3 {
+      position: absolute;
+      margin-top: 170px ;
+      margin-left: 725px;
+      transform: translateY(-50%);
+    }
+    .traffic-light-panel4 {
+      position: absolute;
+      top: 73%;
+      /* margin-bottom: 600px; */
+      margin-left: 725px;
+      transform: translateY(-50%);
+    }
+    
+    .traffic-light {
+      width: 60px;
+      height: 150px;
+      border: 6px solid black;
+      border-radius: 8px;
+      background-color: gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    
+    .circle {
+      width: 50px;
+      height: 50px;
+      border: 2px solid black;
+      border-radius: 50%;
+    }
+    
+    .red {
+      background-color: red;
+    }
+    
+    .yellow {
+      background-color: yellow;
+    }
+    
+    .green {
+      background-color: green;
+    }
+    
