@@ -111,17 +111,19 @@ input[type="text"],
   border-radius: 5px;
   box-shadow: 0px 
   }
-  .traffic-light-panel {
+  
+.traffic-light-panel {
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-left: 20px;
+margin-left: 280px;
+margin-top: 105px;
 }
 
 .traffic-light {
-width: 40px;
-height: 80px;
+width: 58px;
+height: 190px;
 border: 1px solid black;
 border-radius: 5px;
 background-color: #ddd;
@@ -131,18 +133,19 @@ margin-bottom: 10px;
 .traffic-light .circle {
 width: 20px;
 height: 20px;
-border-radius: 50%;
-margin: 5px;
+border-radius: 20%;
+margin-top: 50px;
 }
 
-.traffic-light .circle.red {
+.traffic-light .circle.circle-red {
 background-color: red;
+margin-top: 50px;
 }
 
-.traffic-light .circle.yellow {
+.traffic-light .circle.circle-yellow {
 background-color: yellow;
 }
 
-.traffic-light .circle.green {
+.traffic-light .circle.circle-green {
 background-color: green;
 }
